@@ -1,0 +1,90 @@
+body {
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #333333;
+}
+
+.login-wrapper {
+    padding-top: 156px;
+    
+}
+
+.login-wrapper .login {
+    padding: 90px 0 60px 0;
+    text-align: center;
+}
+
+.login-wrapper .login > p {
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.login-wrapper .login form {
+    width: 340px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.login-wrapper .login form input,
+.login-wrapper .login form button  {
+    width: 100%;
+    height: 54px;
+    border-radius: 4px;
+}
+
+.login-wrapper .login form input {
+    border: 1px solid #ddd;
+    padding: 0 11px 0 15px;
+}
+
+.login-wrapper .login form input::placeholder {
+    font-weight: bold;
+}
+
+.login-wrapper .login form input:first-child {
+    margin-bottom: 10px;
+}
+
+.login-wrapper .user-search { 
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 22px;
+}
+
+.login-wrapper .user-search a {
+    font-size: 13px;
+    font-weight: 600;
+}  
+
+.login-wrapper .user-search a:first-child::after {
+    content: "";
+    width: 1px;
+    height: 10px;
+    background-color: black;
+    display: inline-block;
+    margin: 3px 6px 0 6px;
+}
+
+.login-wrapper .login form button {
+    border: 1px solid #5f0080;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-wrapper .login form button:first-child {
+    background-color: #5f0080;
+    color: white;
+    margin-top: 28px;
+}
+
+.login-wrapper .login form button:last-child {
+    background-color: #fff;
+    color: #5f0080;
+    margin-top: 10px;
+}
