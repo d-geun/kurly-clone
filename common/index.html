@@ -52,12 +52,14 @@
                     
                     <button class="location">
                         <div class="tooltip-wrapper">
-                            <span>배송지를 등록</span><span>하고</span>  
-                            <p>구매 가능한 상품을 확인하세요!</p>     
-                            <div class="tooltip-btn">
-                            <a href="../login/login.html">로그인</a>
-                            <a href="#">주소 검색</a>
-                            </div>                      
+                            <div class="tooltip">
+                                <span>배송지를 등록</span><span>하고</span>  
+                                <p>구매 가능한 상품을 확인하세요!</p>     
+                                <div class="tooltip-btn">
+                                    <a href="../login/login.html">로그인</a>
+                                    <a href="#">주소 검색</a>
+                                </div>               
+                            </div>       
                         </div>
                     </button>
 
@@ -118,8 +120,31 @@
                     </li>
                 </ul>
             </ul>
-        </div> 
-    </header>
+            
+                <form action="">
+                    <input type="text" placeholder="검색어를 입력해주세요" />
+                    <span class="material-icons">search</span>
+                </form>
+                
+                <div class="right-menu">
+                    <button class="location">
+                        <div class="tooltip-wrapper">
+                            <div class="tooltip">
+                                <span>배송지를 등록</span><span>하고</span>  
+                                <p>구매 가능한 상품을 확인하세요!</p>     
+                                <div class="tooltip-btn">
+                                    <a href="../login/login.html">로그인</a>
+                                    <a href="#">주소 검색</a>
+                                </div> 
+                            </div>                     
+                        </div>
+                    </button>
+                    <button class="favorite"></button>
+                    <button class="shopping"></button>
+                </div>
+            </div> 
+        </header>
+
 
     <main>
         <!-- Top Slide -->
@@ -153,9 +178,9 @@
                     <img src="../img/slide9.jpg" alt="slide8">
                 </div>
             </div>
-            <div class="swiper-pagination"></div>
             <div class="prev-btn"></div>
             <div class="next-btn"></div>
+            <div class="swiper-pagination"></div>
         </div>
         <!-- banner(ad) -->
         <aside class="banner">
