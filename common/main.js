@@ -3,9 +3,9 @@
 const swiper = new Swiper('main > .swiper', {
     direction: 'horizontal',
     loop: true,
-    // autoplay: {
-    //      delay: 2500
-    // },       
+    autoplay: {
+        delay: 2500
+    },       
     pagination: {
         el: '.swiper-pagination',
         type: 'fraction'
@@ -18,13 +18,13 @@ const swiper = new Swiper('main > .swiper', {
 
 const swiperEl = document.querySelector('.swiper');
 
-// swiperEl.addEventListener('mouseenter', () => {
-//     swiper.autoplay.stop();
-// });
+swiperEl.addEventListener('mouseenter', () => {
+    swiper.autoplay.stop();
+});
 
-// swiperEl.addEventListener('mouseleave', () => {
-//     swiper.autoplay.start();
-// })
+swiperEl.addEventListener('mouseleave', () => {
+    swiper.autoplay.start();
+})
 
 
 // Item Slides
@@ -32,8 +32,8 @@ const swiperEl = document.querySelector('.swiper');
 const swiperItem = new Swiper('.swiper.items', {
     direction: 'horizontal',
     navigation: {
-        nextEl: '.swiper.items .next-btn',
-        prevEl: '.swiper.items .prev-btn',
+        nextEl: 'section .next-btn',
+        prevEl: 'section .prev-btn',
     },
 });
 
